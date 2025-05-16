@@ -42,6 +42,8 @@ PowerShell script to automate OS & data disk snapshots across **multiple Azure s
   .\Take-VMSnapshot.ps1 `
   -VmListPath ".\vmnames.txt" `
   -TicketId "INC123456"
+  
+  Note: When selecting a tenant and subscription, simply press Enter. This will check all subscriptions to locate the VM wherever you have access.
   ```
 
 ---
